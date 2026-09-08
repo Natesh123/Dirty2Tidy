@@ -1,0 +1,168 @@
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: The option 'android.enableR8' is deprecated.
+It was removed in version 7.0 of the Android Gradle plugin.
+Please remove it from `gradle.properties`.
+
+> Task :app:ReleaseMinSdkCheck
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:compileFlutterBuildRelease UP-TO-DATE
+> Task :app:packJniLibsflutterBuildRelease UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app_links:preBuild UP-TO-DATE
+> Task :app_links:preReleaseBuild UP-TO-DATE
+> Task :app_links:writeReleaseAarMetadata UP-TO-DATE
+> Task :audioplayers_android:preBuild UP-TO-DATE
+> Task :audioplayers_android:preReleaseBuild UP-TO-DATE
+> Task :audioplayers_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :connectivity_plus:preBuild UP-TO-DATE
+> Task :connectivity_plus:preReleaseBuild UP-TO-DATE
+> Task :connectivity_plus:writeReleaseAarMetadata UP-TO-DATE
+> Task :file_picker:preBuild UP-TO-DATE
+> Task :file_picker:preReleaseBuild UP-TO-DATE
+> Task :file_picker:writeReleaseAarMetadata UP-TO-DATE
+> Task :firebase_auth:preBuild UP-TO-DATE
+> Task :firebase_auth:preReleaseBuild UP-TO-DATE
+> Task :firebase_auth:writeReleaseAarMetadata UP-TO-DATE
+> Task :firebase_core:preBuild UP-TO-DATE
+> Task :firebase_core:preReleaseBuild UP-TO-DATE
+> Task :firebase_core:writeReleaseAarMetadata UP-TO-DATE
+> Task :firebase_messaging:preBuild UP-TO-DATE
+> Task :firebase_messaging:preReleaseBuild UP-TO-DATE
+> Task :firebase_messaging:writeReleaseAarMetadata UP-TO-DATE
+> Task :flutter_downloader:preBuild UP-TO-DATE
+> Task :flutter_downloader:preReleaseBuild UP-TO-DATE
+> Task :flutter_downloader:writeReleaseAarMetadata UP-TO-DATE
+> Task :flutter_facebook_auth:preBuild UP-TO-DATE
+> Task :flutter_facebook_auth:preReleaseBuild UP-TO-DATE
+> Task :flutter_facebook_auth:writeReleaseAarMetadata UP-TO-DATE
+> Task :flutter_inappwebview_android:preBuild UP-TO-DATE
+> Task :flutter_inappwebview_android:preReleaseBuild UP-TO-DATE
+> Task :flutter_inappwebview_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :flutter_keyboard_visibility:preBuild UP-TO-DATE
+> Task :flutter_keyboard_visibility:preReleaseBuild UP-TO-DATE
+> Task :flutter_keyboard_visibility:writeReleaseAarMetadata UP-TO-DATE
+> Task :flutter_local_notifications:preBuild UP-TO-DATE
+> Task :flutter_local_notifications:preReleaseBuild UP-TO-DATE
+> Task :flutter_local_notifications:writeReleaseAarMetadata UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preReleaseBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:writeReleaseAarMetadata UP-TO-DATE
+> Task :flutter_secure_storage:preBuild UP-TO-DATE
+> Task :flutter_secure_storage:preReleaseBuild UP-TO-DATE
+> Task :flutter_secure_storage:writeReleaseAarMetadata UP-TO-DATE
+> Task :fluttertoast:preBuild UP-TO-DATE
+> Task :fluttertoast:preReleaseBuild UP-TO-DATE
+> Task :fluttertoast:writeReleaseAarMetadata UP-TO-DATE
+> Task :geolocator_android:preBuild UP-TO-DATE
+> Task :geolocator_android:preReleaseBuild UP-TO-DATE
+> Task :geolocator_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :google_maps_flutter_android:preBuild UP-TO-DATE
+> Task :google_maps_flutter_android:preReleaseBuild UP-TO-DATE
+> Task :google_maps_flutter_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :google_sign_in_android:preBuild UP-TO-DATE
+> Task :google_sign_in_android:preReleaseBuild UP-TO-DATE
+> Task :google_sign_in_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :image_picker_android:preBuild UP-TO-DATE
+> Task :image_picker_android:preReleaseBuild UP-TO-DATE
+> Task :image_picker_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :package_info_plus:preBuild UP-TO-DATE
+> Task :package_info_plus:preReleaseBuild UP-TO-DATE
+> Task :package_info_plus:writeReleaseAarMetadata UP-TO-DATE
+> Task :path_provider_android:preBuild UP-TO-DATE
+> Task :path_provider_android:preReleaseBuild UP-TO-DATE
+> Task :path_provider_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :permission_handler_android:preBuild UP-TO-DATE
+> Task :permission_handler_android:preReleaseBuild UP-TO-DATE
+> Task :permission_handler_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :printing:preBuild UP-TO-DATE
+> Task :printing:preReleaseBuild UP-TO-DATE
+> Task :printing:writeReleaseAarMetadata UP-TO-DATE
+> Task :share_plus:preBuild UP-TO-DATE
+> Task :share_plus:preReleaseBuild UP-TO-DATE
+> Task :share_plus:writeReleaseAarMetadata UP-TO-DATE
+> Task :shared_preferences_android:preBuild UP-TO-DATE
+> Task :shared_preferences_android:preReleaseBuild UP-TO-DATE
+> Task :shared_preferences_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :sign_in_with_apple:preBuild UP-TO-DATE
+> Task :sign_in_with_apple:preReleaseBuild UP-TO-DATE
+> Task :sign_in_with_apple:writeReleaseAarMetadata UP-TO-DATE
+> Task :sqflite_android:preBuild UP-TO-DATE
+> Task :sqflite_android:preReleaseBuild UP-TO-DATE
+> Task :sqflite_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :sqlite3_flutter_libs:preBuild UP-TO-DATE
+> Task :sqlite3_flutter_libs:preReleaseBuild UP-TO-DATE
+> Task :sqlite3_flutter_libs:writeReleaseAarMetadata UP-TO-DATE
+> Task :url_launcher_android:preBuild UP-TO-DATE
+> Task :url_launcher_android:preReleaseBuild UP-TO-DATE
+> Task :url_launcher_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :video_player_android:preBuild UP-TO-DATE
+> Task :video_player_android:preReleaseBuild UP-TO-DATE
+> Task :video_player_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :wakelock_plus:preBuild UP-TO-DATE
+> Task :wakelock_plus:preReleaseBuild UP-TO-DATE
+> Task :wakelock_plus:writeReleaseAarMetadata UP-TO-DATE
+> Task :webview_flutter_android:preBuild UP-TO-DATE
+> Task :webview_flutter_android:preReleaseBuild UP-TO-DATE
+> Task :webview_flutter_android:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:checkReleaseAarMetadata FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Cannot invoke "java.util.List.get(int)" because "path" is null
+
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because "path" is null
+	at org.gradle.internal.resolve.ModuleVersionResolveException.getMessage(ModuleVersionResolveException.java:120)
+	at org.gradle.internal.exceptions.DefaultMultiCauseException.printStackTrace(DefaultMultiCauseException.java:142)
+	at org.gradle.internal.exceptions.DefaultMultiCauseException.printMultiCauseStackTrace(DefaultMultiCauseException.java:164)
+	at org.gradle.internal.exceptions.DefaultMultiCauseException.printStackTrace(DefaultMultiCauseException.java:147)
+	at org.gradle.internal.exceptions.DefaultMultiCauseException.printSingleCauseStackTrace(DefaultMultiCauseException.java:157)
+	at org.gradle.internal.exceptions.DefaultMultiCauseException.printStackTrace(DefaultMultiCauseException.java:145)
+	at org.gradle.internal.build.event.types.DefaultFailure.fromThrowable(DefaultFailure.java:56)
+	at org.gradle.tooling.internal.provider.runner.TaskOperationMapper.toTaskResult(TaskOperationMapper.java:134)
+	at org.gradle.tooling.internal.provider.runner.TaskOperationMapper.createFinishedEvent(TaskOperationMapper.java:113)
+	at org.gradle.tooling.internal.provider.runner.TaskOperationMapper.createFinishedEvent(TaskOperationMapper.java:56)
+	at org.gradle.tooling.internal.provider.runner.ClientBuildEventGenerator$EnabledOperation.generateFinishEvent(ClientBuildEventGenerator.java:154)
+	at org.gradle.tooling.internal.provider.runner.ClientBuildEventGenerator.finished(ClientBuildEventGenerator.java:110)
+	at org.gradle.internal.operations.DefaultBuildOperationListenerManager$ProgressShieldingBuildOperationListener.finished(DefaultBuildOperationListenerManager.java:127)
+	at org.gradle.internal.operations.DefaultBuildOperationListenerManager$1.finished(DefaultBuildOperationListenerManager.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$ListenerAdapter.stop(DefaultBuildOperationExecutor.java:214)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$BuildOperationTrackingListener.stop(DefaultBuildOperationRunner.java:239)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:73)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:463)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:380)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+
+
+BUILD FAILED in 17s
+41 actionable tasks: 3 executed, 38 up-to-date

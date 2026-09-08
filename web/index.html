@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <base href="/web/">
+
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID">
+  <meta charset="UTF-8">
+
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="A multi-vendor service providing app.">
+  <meta name="robots" content="nofollow, noindex, max-snippet:1, max-video-preview:1, max-image-preview:standard">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Demandium">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>Dirt2Tidy</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    /* Inlined style.css for PageSpeed optimization */
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      background-color: #fff
+    }
+
+    body.theme-dark {
+      background-color: #111
+    }
+
+    .preloader {
+      position: fixed;
+      inline-size: 100%;
+      block-size: 100%;
+      background-color: #fff;
+      display: grid;
+      place-items: center
+    }
+
+    .theme-dark .preloader {
+      background-color: #111
+    }
+
+    @media (max-width:1199px) {
+      .header {
+        display: none
+      }
+    }
+
+    .preloader-img {
+      animation: animloaderimg 3000ms ease-in-out infinite
+    }
+
+    .preloader-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center
+    }
+
+    .preloader .loader {
+      width: 140px;
+      height: .25rem;
+      display: inline-block;
+      position: relative;
+      background: rgba(0, 0, 0, .15);
+      overflow: hidden;
+      border-radius: 50rem
+    }
+
+    .theme-dark .preloader .loader {
+      background: rgba(255, 255, 255, .15)
+    }
+
+    .preloader .loader::after {
+      content: "";
+      width: 30px;
+      height: 4.8px;
+      background: #000;
+      position: absolute;
+      top: 0;
+      left: 0;
+      box-sizing: border-box;
+      animation: animloader 2e3ms linear infinite;
+      border-radius: 50rem
+    }
+
+    .header {
+      position: fixed;
+      inset-block-start: 0;
+      inset-inline-start: 0;
+      inline-size: 100%
+    }
+
+    .header-container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.28rem 1.6rem;
+      background-color: #fff;
+      box-shadow: 0 6px 12px -3px rgba(4, 97, 165, .1);
+      border-radius: 0 0 .625rem .625rem
+    }
+
+    .theme-dark .header-container {
+      background-color: #111
+    }
+
+    .header .logo {
+      max-height: 30px
+    }
+
+    .placeholder {
+      block-size: .825rem;
+      inline-size: 3rem;
+      background-color: #f5f5f5;
+      border-radius: .3rem
+    }
+
+    .theme-dark .placeholder {
+      background-color: #111
+    }
+
+    .placeholder-wide {
+      inline-size: 12rem
+    }
+
+    .d-flex {
+      display: flex
+    }
+
+    .align-items-center {
+      align-items: center
+    }
+
+    .justify-content-center {
+      justify-content: center
+    }
+
+    .justify-content-between {
+      justify-content: space-between
+    }
+
+    .flex-column {
+      flex-direction: column
+    }
+
+    .gap-3 {
+      gap: 1rem
+    }
+
+    .gap-4 {
+      gap: 1.5rem
+    }
+
+    .gap-5 {
+      gap: 3rem
+    }
+
+    @keyframes animloader {
+      0% {
+        left: 0;
+        transform: translateX(-100%)
+      }
+
+      100% {
+        left: 100%;
+        transform: translateX(0)
+      }
+    }
+
+    @keyframes animloaderimg {
+
+      0%,
+      100% {
+        transform: translateY(0)
+      }
+
+      50% {
+        transform: translateY(-1rem)
+      }
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://maps.googleapis.com">
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+
+  <!-- Optimization: Preload Critical Scripts -->
+  <link rel="preload" href="flutter_bootstrap.js" as="script">
+  <link rel="preload" href="main.dart.js" as="script">
+
+  <script type="application/javascript" src="assets/packages/flutter_inappwebview_web/assets/web/web_support.js"
+    defer></script>
+
+  <link rel="canonical" href="https://app.dirt2tidy.com.au/web/" />
+
+  <style>
+    .grecaptcha-badge {
+      visibility: hidden;
+    }
+  </style>
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = "4268630922";
+  </script>
+
+
+  <!-- Removed outdated Safari WebGL2 workaround that causes blank screens on modern iOS -->
+
+  <!-- Force HTML renderer to fix CORS/CanvasKit issues on mobile -->
+  <script>
+    window.flutterWebRenderer = "html";
+  </script>
+
+  <script src="flutter_bootstrap.js" defer></script>
+</head>
+
+<body>
+
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKr8UmGNIB9cDKFO2g4qVyaJ8A_C6GATs&loading=async&callback=Function.prototype"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js" defer></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js" defer></script>
+
+
+  <div class="preloader">
+    <div class="preloader-container">
+      <img width="60" class="preloader-img" src="logo.png" alt="">
+      <div class="loader"></div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="header-container d-flex align-items-center justify-content-between">
+      <div class="header-start d-flex gap-5 align-items-center">
+        <img class="logo" src="appbarlogo.png" alt="">
+        <div class="placeholder placeholder-wide"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+      <div class="header-end d-flex gap-5">
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    window.addEventListener('load', function () {
+      document.querySelectorAll("img.svg").forEach(function (img) {
+        var imgID = img.getAttribute("id");
+        var imgClass = img.getAttribute("class");
+        var imgURL = img.getAttribute("src");
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", imgURL, true);
+        xhr.responseType = "document";
+        xhr.onload = function () {
+          if (xhr.status === 200) {
+            var data = xhr.response;
+            var svg = data.querySelector("svg");
+            if (svg) {
+              if (typeof imgID !== "undefined") svg.setAttribute("id", imgID);
+              if (typeof imgClass !== "undefined") svg.setAttribute("class", imgClass + " replaced-svg");
+              svg.removeAttribute("xmlns:a");
+              if (!svg.getAttribute("viewBox") && svg.getAttribute("height") && svg.getAttribute("width")) {
+                svg.setAttribute("viewBox", "0 0 " + svg.getAttribute("height") + " " + svg.getAttribute("width"));
+              }
+              img.parentNode.replaceChild(svg, img);
+            }
+          }
+        };
+        xhr.send();
+      });
+    });
+  </script>
+
+  <script>
+    if (typeof (Storage) !== "undefined") {
+      var itemValue = localStorage.getItem("flutter.demand_theme");
+      if (itemValue !== null) {
+        if (itemValue === "true") {
+          document.body.classList.add("theme-dark");
+        } else {
+          document.body.classList.remove("theme-light");
+        }
+      }
+    }
+  </script>
+
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyCodd-QN4TJGNJx4EDBFITzQSzpabPY8JA",
+      authDomain: "dirt2tidy-55848.firebaseapp.com",
+      projectId: "dirt2tidy-55848",
+      storageBucket: "dirt2tidy-55848.firebasestorage.app",
+      messagingSenderId: "185184234632",
+      appId: "1:185184234632:web:83be7ebd4116fb7dc1c33d"
+    };
+
+    window.addEventListener('load', function () {
+      if (typeof firebase !== 'undefined') {
+        firebase.initializeApp(firebaseConfig);
+      }
+    });
+  </script>
+
+  <script>
+    // Robust preloader removal
+    var observer = new MutationObserver(function (mutations) {
+      if (document.body.querySelector('flt-glass-pane') || 
+          document.body.querySelector('flutter-view') || 
+          document.body.querySelector('flt-scene-host')) {
+        hidePreloader();
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    function hidePreloader() {
+        var preloader = document.querySelector('.preloader');
+        if (preloader) {
+          preloader.style.zIndex = '-1';
+          setTimeout(function() { preloader.style.display = 'none'; }, 500);
+          if(typeof observer !== 'undefined') observer.disconnect();
+        }
+    }
+
+    // Increased timeout for slow mobile loads
+    setTimeout(function () {
+      hidePreloader();
+    }, 30000);
+
+    // Global error listener to help debug blank pages
+    window.addEventListener('error', function (event) {
+      if (event.filename && (event.filename.indexOf('main.dart.js') > -1 || event.filename.indexOf('flutter_bootstrap.js') > -1)) {
+        console.error("Critical Flutter Web Script Error:", event);
+        // Uncomment below to show error on device for debugging
+        // alert("Error loading app script: " + event.message);
+      }
+    }, true);
+  </script>
+
+</body>
+
+</html>
